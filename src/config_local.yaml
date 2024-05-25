@@ -1,0 +1,19 @@
+experimentName: local training dead sea project
+searchSpaceFile: search_space_local.json
+trialCommand: python deadsea_unet_train.py
+trialCodeDirectory: .
+
+trialGpuNumber: 0
+trialConcurrency: 1
+maxExperimentDuration: 3h
+maxTrialNumber: 2
+
+trainingService:
+ platform: local
+
+experimentWorkingDirectory: ../cloudcontainer/drone/nni_experiments
+
+tuner:
+ name: TPE
+ classArgs:
+  optimize_mode: maximize

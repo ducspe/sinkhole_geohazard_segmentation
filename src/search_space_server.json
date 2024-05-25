@@ -1,0 +1,4 @@
+{
+	"batch_size": {"_type":"choice", "_value":[32, 64]},
+	"num_epochs": {"_type":"choice", "_value":[1000]}
+}
