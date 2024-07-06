@@ -1,7 +1,7 @@
 # Geological Structure Segmentation
 
 This repository contains the final code for sinkhole semantic and instance segmentation using drone and satellite data.
-The built system is hybrid in nature, i.e. it uses both deep-learning and non-deep-learning computer vision techniques to achieve the final results.
+The built system is hybrid in nature, i.e. it uses both deep-learning and non-deep-learning computer vision techniques to achieve the final results. **The associated peer-reviewed publication is available under ->** https://doi.org/10.3390/rs16132264
 
 ![Screenshot](extra_material/SystemAndResults.png)
 
